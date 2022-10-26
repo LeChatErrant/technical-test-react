@@ -4,9 +4,13 @@ import Head from 'next/head'
 import { ThemeProvider } from 'styled-components'
 
 import Layout from '@components/Layout'
-import theme from '@utils/theme'
+import useDarkMode from '@hooks/useDarkMode'
+import { GlobalStyles, createGlobalTheme } from '@utils/theme'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
+  const { dark, toggleDarkTheme } = useDarkMode(true)
+  const theme = createGlobalTheme(dark)
+
   return (
     <>
       <Head>
@@ -14,8 +18,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <MuiThemeProvider theme={theme}>
         <CssBaseline />
+        <GlobalStyles />
         <ThemeProvider theme={theme}>
-          <Layout>
+          <Layout dark={dark} toggleDarkTheme={toggleDarkTheme}>
             <Component {...pageProps} />
           </Layout>
         </ThemeProvider>

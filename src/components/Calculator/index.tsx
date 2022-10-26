@@ -13,7 +13,7 @@ import Keyboard from '@components/Keyboard'
 export default function Calculator() {
   const theme = useTheme()
   const [result, setResult] = useState('0')
-  const [input, setInput] = useState('')
+  const [input, setInput] = useState(' ')
 
   const [previous, setPrevious] = useState('')
 
@@ -38,7 +38,7 @@ export default function Calculator() {
   }
 
   function clear() {
-    setInput('')
+    setInput(' ')
     setResult('0')
   }
 
