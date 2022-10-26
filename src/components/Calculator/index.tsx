@@ -18,7 +18,7 @@ export default function Calculator() {
   const [previous, setPrevious] = useState('')
 
   function addInput(str: string) {
-    setInput(input + str + ' ')
+    setInput(input + str)
   }
 
   function compute() {
@@ -32,7 +32,7 @@ export default function Calculator() {
 
   function erase() {
     if (input.length > 0) {
-      setInput(input.slice(0, -2))
+      setInput(input.slice(0, -1))
     }
   }
 
