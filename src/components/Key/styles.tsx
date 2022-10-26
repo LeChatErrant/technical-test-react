@@ -5,7 +5,7 @@ import { KeyProps } from '@components/Key/props'
 
 export const KeyButton = styled(Button)<KeyProps>`
   background-color: ${({ theme }) => theme.palette.background.paper};
-  color: ${(props) => props.contentColor};
+  color: ${(props) => props.contentcolor};
   font-size: 25px;
   place-self: center;
   border-radius: 15px;

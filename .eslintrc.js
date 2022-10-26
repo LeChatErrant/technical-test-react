@@ -42,11 +42,5 @@ module.exports = {
         argsIgnorePattern: '^(_|props)',
       },
     ],
-    'no-console': [
-      2,
-      {
-        allow: ['warn'],
-      },
-    ],
   },
 }
