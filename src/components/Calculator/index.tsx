@@ -23,6 +23,7 @@ export default function Calculator() {
 
   function compute() {
     try {
+      setPrevious(input)
       setResult(evaluate(input))
     } catch (err) {
       console.log(err)
@@ -37,7 +38,6 @@ export default function Calculator() {
   }
 
   function clear() {
-    setPrevious(input)
     setInput('')
     setResult('0')
   }
