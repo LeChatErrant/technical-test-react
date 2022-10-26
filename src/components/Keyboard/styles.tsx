@@ -11,4 +11,6 @@ export const KeyboardContainer = styled.div<KeyboardProps>`
 
   display: grid;
   grid-template-columns: repeat(${(props) => props.columns}, 1fr);
+  grid-gap: 1em;
+  padding: 2em;
 `
