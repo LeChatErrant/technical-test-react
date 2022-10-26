@@ -8,13 +8,13 @@ export const KeyButton = styled(Button)<KeyProps>`
   color: ${(props) => props.contentcolor};
   font-size: 25px;
   place-self: center;
-  border-radius: 15px;
+  border-radius: 15px; !important;
   width: 100%;
   height: 100%;
 
   &:hover {
     width: 102%;
     height: 102%;
-    background-color: ${({ theme }) => theme.palette.action.hover};
+    background-color: ${({ theme }) => theme.palette.action.hover} !important;
   }
 `

@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const CalculatorContainer = styled(Paper)`
   height: 90%;
   width: 30%;
-  border-radius: 50px;
+  border-radius: 50px !important;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
