@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Technical interview - Frontend
 
 ## Getting Started
 
@@ -12,23 +12,66 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Instructions
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Task
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+---
 
-## Learn More
+Create a single page application of a calculator using React.
 
-To learn more about Next.js, take a look at the following resources:
+If you don't know where to start, open the calculator of your smartphone.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Must have
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+We will pay attention to the following points when reviewing your code:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- The code is clean and readable.
+- It is possible to perform basic operations (`+` `-` `x` `/`).
+- The calculator is well designed and user-friendly.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Nice to have
+
+---
+
+For more points, feel free to pimp up the calculator. Here is a non-exhaustive list of features you could add:
+
+- Show an history of the previous operations
+- Add the possibility to use the numeric keys of your keyboard
+- Add an undo/delete button
+- Include an easter egg (use your creativity)
+- Add a dark mode
+- Add a demo page
+- Perform more complex operations (square, square root, log, etc...)
+- Make the app responsive
+- Include tests in your code
+- Add an authentication process before accessing the calculator
+- Handle multiple languages
+- Anything you think of !
+- etc.
+
+### Technologies
+
+---
+
+The only required technology is **React**. You can use anything on top of it – framework, library, etc.
+
+Here is a list of technologies we use at *****:
+
+- [React](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [mathjs](https://mathjs.org/)
+- [Ant Design](https://ant.design/)
+- [Lottie](https://lottiefiles.com/)
+- [React Intl](https://formatjs.io/docs/react-intl/)
+- [React Router](https://reactrouter.com/)
+- [Firebase](https://firebase.google.com/)
+- [NestJS](https://nestjs.com/)
+
+<aside>
+❗ We don't necessarily expect you to use these technologies, this is just for your information.
+
+</aside>
