@@ -43,8 +43,8 @@ export default function Calculator() {
   }
 
   function retrievePrevious() {
+    setResult('0')
     setInput(previous)
-    compute()
   }
 
   return (
@@ -86,7 +86,7 @@ export default function Calculator() {
         <Key
           content="9"
           contentcolor={theme.palette.text.primary}
-          onClick={() => addInput('0')}
+          onClick={() => addInput('9')}
         />
         <Key
           content="*"
