@@ -27,7 +27,7 @@ export default function Calculator() {
       setResult(evaluate(input))
     } catch (err) {
       console.log(err)
-      setResult('Error')
+      setResult('Syntax error')
     }
   }
 
